@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fixed-width{
+    width: 700px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+/* main css */
+
+.header{
+    background: #bdc3c7;
+}
+.header-text{
+    padding: 15px 0px;
+}
+.header h5{
+   
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.header p{
+    width: 450px;
+    margin: auto;
+    font-size: 13px;
+}
+/* Header bottom */
+
+.header-bottom{
+    width: 600px;
+    padding-top: 10px;
+    margin: auto
+}
+.img{
+    width: 48%;
+}
+.img img{
+    max-width: 100%;
+}
+.text{
+    width: 48%;
+    border: 1px solid rgba(116, 125, 140,1.0);
+    border-radius: 2px;
+}
+.name{
+    background: rgba(209, 216, 224,.5);
+}
+.name h4{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.about{
+    padding: 6px;
+}
+.about h5{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.about p{
+    padding-top: 6px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.skill-menu h5{
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+.skill-menu ul{
+    margin-left: 13px;
+}
+.skill-menu ul li{
+    font-size: 11px;
+}
+
+.experance{
+    margin-top: 10px;
+}
+.experance h4{
+    font-size: 13px;
+
+}
+.experance p{
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+.services{
+    padding-top: 20px;
+}
+.services h4{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 9px;
+    
+}
+.services-text{
+    width: 31.3%;
+    margin-right: 2%;
+    border: 1px solid rgba(116, 125, 140,1.0);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.services-text h5{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.services-text p{
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.contact{
+    text-align: center;
+    margin: 20px 0px;
+}
+.contact h3{
+    font-size: 15px;
+    
+}
+.contact p{
+    padding-top: 7px;
+    font-size: 12px;
+}
+.footer{
+    background: rgba(44, 62, 80,1.0);
+
+}
+.footer p{
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+}
